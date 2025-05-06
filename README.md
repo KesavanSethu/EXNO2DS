@@ -38,7 +38,7 @@ dt
 ```
 dt.info()
 ```
-![img-2](https://github.com/user-attachments/assets/394da69b-31a5-4e4a-aaff-b3aafa81a153)
+![image](https://github.com/user-attachments/assets/352fa5b1-99fd-4dfd-96b0-f81b678836ca)
 
 ```
 dt.shape
@@ -57,7 +57,8 @@ dt.describe()
 dt.nunique()
 ```
 
-![img-5](https://github.com/user-attachments/assets/7d676614-a7ce-496c-b4bc-9676df9ec488)
+![image](https://github.com/user-attachments/assets/79a1d0d7-c51d-4a6b-a3e1-b5954bbe6dd2)
+
 
 ```
 dt["Survived"].value_counts()
@@ -76,7 +77,7 @@ per
 sns.countplot(data=dt,x="Survived")
 ```
 
-![img-8](https://github.com/user-attachments/assets/df63b1a0-434a-4777-aedd-5f17579f94aa)
+![image](https://github.com/user-attachments/assets/82e6cfab-8a7b-469b-85cd-1b14a258a9ef)
 
 ```
 dt
@@ -107,7 +108,7 @@ sns.catplot(x="Gender",col="Survived",kind="count",data=dt,height=5,aspect=.7)
 sns.catplot(x='Survived',hue='Gender',data=dt,kind='count')
 ```
 
-![img-13](https://github.com/user-attachments/assets/2d35dcc7-ec12-4b43-8df1-6ee82a7d0ff8)
+![image](https://github.com/user-attachments/assets/a12537c6-32f8-44a3-82d0-7fa25153cb10)
 
 ```
 dt.boxplot(column="Age",by="Survived")
