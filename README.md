@@ -51,7 +51,7 @@ dt.set_index("PassengerId",inplace=True)
 dt.describe()
 ```
 
-![img-4](https://github.com/user-attachments/assets/19348d67-ed29-49d2-938a-0407037516a3)
+![image](https://github.com/user-attachments/assets/9fbff76b-b2c3-424d-8c15-bf65fa49e202)
 
 ```
 dt.nunique()
