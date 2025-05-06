@@ -32,7 +32,8 @@ dt = pd.read_csv("/content/titanic_dataset.csv")
 dt
 ```
 
-![img-1](https://github.com/user-attachments/assets/5294ca91-c1fd-45de-8784-696ef3657990)
+![image](https://github.com/user-attachments/assets/e4903e4a-354c-41d4-a42c-d85fec4ec9dc)
+
 
 ```
 dt.info()
